@@ -1,0 +1,45 @@
+### Reading Employee Details
+GET http://localhost:4004/odata/v4/employee-odata/EmployeeSet
+
+
+### Creating Record in Employee Table
+POST http://localhost:4004/odata/v4/employee-odata/EmployeeSet
+Content-Type: application/json
+
+{
+  "firstName": "Rohit",
+  "lastName": "Sharma",
+  "address": "Pune",
+  "mobile": "9823456789",
+  "email": "rohit.sharma@example.com",
+  "createdAt": "2025-09-17T10:25:15.123Z",
+  "createdBy": "anonymous",
+  "modifiedAt": "2025-09-17T10:25:15.123Z",
+  "modifiedBy": "anonymous",
+  "salary": 55000,
+  "designation": "Software Engineer",
+  "country_code": "IN",
+  "familyMembers": [{
+    "relationShip": "Brother",
+    "firstName": "Suresh",
+    "lastName": "Sharma",
+    "address": "Mumbai",
+    "mobile": "9876543210",
+    "email": "suresh.patel@example.com"
+  },{
+    "relationShip": "Father",
+    "firstName": "Mahesh",
+    "lastName": "Sharma",
+    "address": "Pune",
+    "mobile": "9811122233",
+    "email": "mahesh.sharma@example.com"
+  }]
+}
+
+### Update Record in Employee Table
+PATCH http://localhost:4004/odata/v4/employee-odata/EmployeeSet(ID='68d725fb-d89c-4dbb-9fbf-250aac5bad5e')
+Content-Type: application/json
+
+{
+    "lastName" : "Patil"
+}

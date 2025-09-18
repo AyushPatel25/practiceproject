@@ -1,0 +1,11 @@
+ID,firstName,lastName,address,mobile,salary,email,designation
+550e8400-e29b-41d4-a716-446655440000,Ayush,Patel,Ahmedabad,9876543210,65000.50,ayush.patel@example.com,Software Engineer
+c9d1c2a3-8b44-4f3e-bc4d-7d92ab4c8a11,Meera,Iyer,Coimbatore,9123456789,72000.75,meera.iyer@example.com,HR Manager
+a4f9b0c1-6d8b-45df-9c8e-11e6f2e2f001,Rahul,Sharma,Delhi,9988776655,58000.25,rahul.sharma@example.com,Data Analyst
+7b3c2d4e-9f12-4f33-8b25-87f1e8e6d912,Ananya,Verma,Lucknow,9098765432,80000.00,ananya.verma@example.com,Team Lead
+2f1a8e6c-5c11-4c9f-b57a-12e5d9f7b321,Dev,Chopra,Mumbai,9876501234,55000.90,dev.chopra@example.com,UI Designer
+f8a3c7d1-4b23-4e12-ae98-56f9e3d2c445,Sneha,Reddy,Hyderabad,9123001122,95000.30,sneha.reddy@example.com,Project Manager
+3d9e7f8c-1122-4a8b-bc9f-4a3e7d5f9810,Amit,Kumar,Chennai,9812345678,47000.00,amit.kumar@example.com,System Admin
+ad7f9b33-5c88-47a4-a02f-91d2b6f7c889,Priya,Mehta,Pune,9123987654,51000.65,priya.mehta@example.com,QA Engineer
+1b6e9c2f-9341-4c3e-b71f-67a3b2f44d55,Vikram,Joshi,Jaipur,9898123456,88000.10,vikram.joshi@example.com,DevOps Engineer
+8f4c1a9d-71b5-42a7-8733-0a1d4f6c3a77,Kavya,Shah,Surat,9001234567,60000.80,kavya.shah@example.com,Business Analyst
